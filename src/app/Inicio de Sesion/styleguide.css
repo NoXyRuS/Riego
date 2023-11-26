@@ -1,0 +1,26 @@
+:root {
+  --pito-font-family: "Poppins-SemiBold", Helvetica;
+  --pito-font-weight: 600;
+  --pito-font-size: 20px;
+  --pito-letter-spacing: 0px;
+  --pito-line-height: 160.0000023841858%;
+  --pito-font-style: normal;
+  --mini-pito-font-family: "Poppins-Regular", Helvetica;
+  --mini-pito-font-weight: 400;
+  --mini-pito-font-size: 10px;
+  --mini-pito-letter-spacing: 0px;
+  --mini-pito-line-height: 175%;
+  --mini-pito-font-style: normal;
+  --titulo-font-family: "Poppins-Medium", Helvetica;
+  --titulo-font-weight: 500;
+  --titulo-font-size: 13px;
+  --titulo-letter-spacing: 0px;
+  --titulo-line-height: 175%;
+  --titulo-font-style: normal;
+  --subtitulo-font-family: "Poppins-Regular", Helvetica;
+  --subtitulo-font-weight: 400;
+  --subtitulo-font-size: 10px;
+  --subtitulo-letter-spacing: 0px;
+  --subtitulo-line-height: 175%;
+  --subtitulo-font-style: normal;
+}
