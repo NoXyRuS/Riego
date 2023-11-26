@@ -1,0 +1,369 @@
+.dash-board {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .dash-board .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 375px;
+    height: 636px;
+    position: relative;
+  }
+  
+  .dash-board .overlap {
+    position: absolute;
+    width: 375px;
+    height: 44px;
+    top: 0;
+    left: 0;
+    background-color: #dae6ff;
+  }
+  
+  .dash-board .ios-status-bar-black {
+    position: relative;
+    height: 44px;
+  }
+  
+  .dash-board .overlap-group {
+    position: absolute;
+    width: 282px;
+    height: 31px;
+    top: -2px;
+    left: 78px;
+  }
+  
+  .dash-board .BG {
+    position: absolute;
+    width: 219px;
+    height: 30px;
+    top: 0;
+    left: 0;
+  }
+  
+  .dash-board .notch {
+    position: absolute;
+    width: 219px;
+    height: 28px;
+    top: 2px;
+    left: 0;
+  }
+  
+  .dash-board .right-side {
+    position: absolute;
+    width: 67px;
+    height: 11px;
+    top: 19px;
+    left: 216px;
+  }
+  
+  .dash-board .battery {
+    position: absolute;
+    width: 24px;
+    height: 11px;
+    top: 0;
+    left: 42px;
+  }
+  
+  .dash-board .wifi {
+    position: absolute;
+    width: 15px;
+    height: 11px;
+    top: 0;
+    left: 22px;
+  }
+  
+  .dash-board .mobile-signal {
+    position: absolute;
+    width: 17px;
+    height: 11px;
+    top: 0;
+    left: 0;
+  }
+  
+  .dash-board .left-side {
+    position: absolute;
+    width: 28px;
+    height: 11px;
+    top: 17px;
+    left: 33px;
+  }
+  
+  .dash-board .overlap-2 {
+    position: absolute;
+    width: 379px;
+    height: 141px;
+    top: 49px;
+    left: -4px;
+  }
+  
+  .dash-board .overlap-3 {
+    position: absolute;
+    width: 379px;
+    height: 141px;
+    top: 0;
+    left: 0;
+  }
+  
+  .dash-board .text-wrapper {
+    position: absolute;
+    top: 48px;
+    left: 93px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 700;
+    color: #5b6b3a;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .dash-board .text-wrapper-2 {
+    position: absolute;
+    width: 245px;
+    top: 13px;
+    left: 69px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .dash-board .succlent-angle {
+    position: absolute;
+    width: 101px;
+    height: 129px;
+    top: 0;
+    left: 278px;
+    object-fit: cover;
+  }
+  
+  .dash-board .rectangle {
+    position: absolute;
+    width: 375px;
+    height: 38px;
+    top: 103px;
+    left: 4px;
+    background-color: #f7f8f4;
+  }
+  
+  .dash-board .group {
+    position: absolute;
+    width: 377px;
+    height: 27px;
+    top: 103px;
+    left: 0;
+  }
+  
+  .dash-board .text-wrapper-3 {
+    position: absolute;
+    width: 375px;
+    top: 0;
+    left: 0;
+    font-family: var(--pito-font-family);
+    font-weight: var(--pito-font-weight);
+    color: #252525;
+    font-size: var(--pito-font-size);
+    text-align: center;
+    letter-spacing: var(--pito-letter-spacing);
+    line-height: var(--pito-line-height);
+    white-space: nowrap;
+    font-style: var(--pito-font-style);
+  }
+  
+  .dash-board .text-wrapper-4 {
+    position: absolute;
+    width: 92px;
+    top: 68px;
+    left: 142px;
+    font-family: var(--mini-pito-font-family);
+    font-weight: var(--mini-pito-font-weight);
+    color: #858585;
+    font-size: var(--mini-pito-font-size);
+    text-align: center;
+    letter-spacing: var(--mini-pito-letter-spacing);
+    line-height: var(--mini-pito-line-height);
+    white-space: nowrap;
+    font-style: var(--mini-pito-font-style);
+  }
+  
+  .dash-board .overlap-4 {
+    position: absolute;
+    width: 281px;
+    height: 136px;
+    top: 203px;
+    left: 47px;
+  }
+  
+  .dash-board .rectangle-2 {
+    position: absolute;
+    width: 278px;
+    height: 135px;
+    top: 0;
+    left: 2px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 124px #0000001a;
+  }
+  
+  .dash-board .text-wrapper-5 {
+    top: 9px;
+    left: 104px;
+    position: absolute;
+    font-family: var(--titulo-font-family);
+    font-weight: var(--titulo-font-weight);
+    color: #000000;
+    font-size: var(--titulo-font-size);
+    letter-spacing: var(--titulo-letter-spacing);
+    line-height: var(--titulo-line-height);
+    white-space: nowrap;
+    font-style: var(--titulo-font-style);
+  }
+  
+  .dash-board .text-wrapper-6 {
+    top: 35px;
+    left: 124px;
+    position: absolute;
+    font-family: var(--pito-font-family);
+    font-weight: var(--pito-font-weight);
+    color: #5b6b3a;
+    font-size: var(--pito-font-size);
+    letter-spacing: var(--pito-letter-spacing);
+    line-height: var(--pito-line-height);
+    white-space: nowrap;
+    font-style: var(--pito-font-style);
+  }
+  
+  .dash-board .vector {
+    position: absolute;
+    width: 281px;
+    height: 65px;
+    top: 71px;
+    left: 0;
+  }
+  
+  .dash-board .overlap-5 {
+    position: absolute;
+    width: 281px;
+    height: 136px;
+    top: 350px;
+    left: 49px;
+  }
+  
+  .dash-board .text-wrapper-7 {
+    top: 11px;
+    left: 114px;
+    position: absolute;
+    font-family: var(--titulo-font-family);
+    font-weight: var(--titulo-font-weight);
+    color: #000000;
+    font-size: var(--titulo-font-size);
+    letter-spacing: var(--titulo-letter-spacing);
+    line-height: var(--titulo-line-height);
+    white-space: nowrap;
+    font-style: var(--titulo-font-style);
+  }
+  
+  .dash-board .text-wrapper-8 {
+    top: 37px;
+    left: 134px;
+    position: absolute;
+    font-family: var(--pito-font-family);
+    font-weight: var(--pito-font-weight);
+    color: #5b6b3a;
+    font-size: var(--pito-font-size);
+    letter-spacing: var(--pito-letter-spacing);
+    line-height: var(--pito-line-height);
+    white-space: nowrap;
+    font-style: var(--pito-font-style);
+  }
+  
+  .dash-board .overlap-6 {
+    position: absolute;
+    width: 281px;
+    height: 136px;
+    top: 497px;
+    left: 49px;
+  }
+  
+  .dash-board .text-wrapper-9 {
+    top: 11px;
+    left: 106px;
+    position: absolute;
+    font-family: var(--titulo-font-family);
+    font-weight: var(--titulo-font-weight);
+    color: #000000;
+    font-size: var(--titulo-font-size);
+    letter-spacing: var(--titulo-letter-spacing);
+    line-height: var(--titulo-line-height);
+    white-space: nowrap;
+    font-style: var(--titulo-font-style);
+  }
+  
+  .dash-board .text-wrapper-10 {
+    top: 37px;
+    left: 126px;
+    position: absolute;
+    font-family: var(--pito-font-family);
+    font-weight: var(--pito-font-weight);
+    color: #5b6b3a;
+    font-size: var(--pito-font-size);
+    letter-spacing: var(--pito-letter-spacing);
+    line-height: var(--pito-line-height);
+    white-space: nowrap;
+    font-style: var(--pito-font-style);
+  }
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:700,600");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+:root {
+    --pito-font-family: "Poppins-SemiBold", Helvetica;
+    --pito-font-weight: 600;
+    --pito-font-size: 20px;
+    --pito-letter-spacing: 0px;
+    --pito-line-height: 160.0000023841858%;
+    --pito-font-style: normal;
+    --mini-pito-font-family: "Poppins-Regular", Helvetica;
+    --mini-pito-font-weight: 400;
+    --mini-pito-font-size: 10px;
+    --mini-pito-letter-spacing: 0px;
+    --mini-pito-line-height: 175%;
+    --mini-pito-font-style: normal;
+    --titulo-font-family: "Poppins-Medium", Helvetica;
+    --titulo-font-weight: 500;
+    --titulo-font-size: 13px;
+    --titulo-letter-spacing: 0px;
+    --titulo-line-height: 175%;
+    --titulo-font-style: normal;
+    --subtitulo-font-family: "Poppins-Regular", Helvetica;
+    --subtitulo-font-weight: 400;
+    --subtitulo-font-size: 10px;
+    --subtitulo-letter-spacing: 0px;
+    --subtitulo-line-height: 175%;
+    --subtitulo-font-style: normal;
+  }
+  
